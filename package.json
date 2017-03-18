@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "Thin wrapper around the Lifx HTTP API",
   "main": "dist/lifx.js",
+  "types": "dist/lifx.d.ts",
   "scripts": {
     "prepublish": "npm run build",
     "build": "node_modules/.bin/babel source --presets babel-preset-es2015 --out-dir dist",
